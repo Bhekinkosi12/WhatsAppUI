@@ -12,7 +12,7 @@ namespace WhatsApp.Views
 		public CallsView()
 		{
 			InitializeComponent ();
-            BindingContext = viewModel = new CallsViewModel();
+            BindingContext =  new viewmode:CallsViewModel();
 		}
 
         private void Button_Clicked(object sender, System.EventArgs e)

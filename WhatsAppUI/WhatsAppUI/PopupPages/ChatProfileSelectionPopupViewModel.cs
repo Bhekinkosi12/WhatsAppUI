@@ -12,12 +12,18 @@ namespace WhatsApp.PopupPages
             set { SetProperty(ref _selectedProfileImage, value); }
         }
 
+
+
+    
         private string _contact;
         public string Contact
         {
             get { return _contact; }
             set { SetProperty(ref _contact, value); }
         }
+        
+        
+        
 
         public ChatProfileSelectionPopupViewModel(ImageSource source)
         {
